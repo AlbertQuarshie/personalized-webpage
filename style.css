@@ -1,0 +1,58 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #fdeb9e;
+}
+
+form {
+  background: white;
+  padding: 40px;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3f4e4f;
+  color: white;
+  border: solid #3f4e4f;
+  cursor: pointer;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: ghostwhite;
+  color: #3f4e4f;
+}
+
+h1 {
+  font-family: "Viaoda Libre", serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #3f4e4f;
+}
+h2 {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+#age {
+  margin-left: 13px;
+}
+
+#quotes {
+  margin: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #3f4e4f;
+  color: white;
+  border-radius: 20px;
+}
+#ageinmonths {
+  font-size: 20px;
+  font-family: Georgia;
+}
