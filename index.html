@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Personalized Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+
+       <!-- Google Font embedded code  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>QUOTIA</h1>
+    <h2>Please enter your details below:</h2>
+
+    <!-- Form -->
+    <form id="userForm">
+      <label>Name:</label>
+      <input type="text" id="name" required placeholder="Enter your name"/>
+
+      <br /><br />
+
+      <label>Age:</label>
+      <input type="number" id="age" required placeholder="Enter your age"/>
+
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr />
+<!-- Greeting Message -->
+    <h3 id="greeting"></h3>
+
+    <p id="ageinmonths"></p>
+
+    <p id="adultmessage"></p>
+
+
+
+    <div id="quotes"></div>
+    
+<!-- external script file -->
+    <script src="script.js"></script>
+  </body>
+</html>
